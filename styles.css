@@ -100,33 +100,34 @@ p {
     .logo-image {
         display: inline-flex;
         margin-top: 30%;
-        margin-left: 20px;
-        width: 354px;
-        height: 317px;
+        margin-left: 70px;
+        width: 220px;
+        height: auto;
         flex-shrink: 0;
     }
     section {
         display: block;
-        margin-left: 64px;
-        
+        margin-left: 20px; /* Ajustado para alinhar a seção */
+        text-align: center; /* Centraliza o conteúdo da seção */
     }
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         font-family: 'Montserrat';
         font-weight: 900;
         line-height: 61px;
         letter-spacing: 0em;
-        text-align: left;
-        width: 263px;
-        height: 52px;
-        margin-bottom: 0px;      
+        width: auto; /* Ajustado para auto para evitar largura fixa */
+        height: auto; /* Ajustado para auto para evitar altura fixa */
+        margin-top: 80px;
+        text-align: center; /* Centraliza o texto */
     }
     h2 {
-        height: 37px;
+        height: auto; /* Ajustado para auto para evitar altura fixa */
         line-height: normal;
         font-weight: 500;
         font-size: 30px;
-        margin-bottom: 30px;      
+        margin-bottom: 30px;
+        text-align: center; /* Centraliza o texto */
     }
     p {
         display: none;
